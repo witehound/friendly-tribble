@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./Images/PHOTO-2023-07-13-16-21-15\ 6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.firstcontainer {
+  min-width: 1020px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.for {
+  display: flex;
+  gap: 40px;
+}
+
+.forp {
+  font-size: small;
+  font-weight: 50;
+}
+
+.ftwo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.ftwocontainer {
+  border: 1px solid white;
+  padding: 25px;
+}
+
+.ftwocontainer h1 {
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: 50;
+}
+
+.second {
+  min-width: 1020px;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.st {
+  margin-bottom: 50px;
+}
+
+.stt {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.stti {
+  max-height: auto;
+  max-width: 600px;
+}
+
+.sttr {
+  position: absolute;
+  right: 20px;
+  bottom: -70px;
+  background-color: white;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sttrh3 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.sttrp {
+  font-size: 15px;
+  line-height: 20px;
+  color: grey;
+}
+
+.sbt {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.sbth3 {
+  word-spacing: 5px;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.sbtbutton {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
