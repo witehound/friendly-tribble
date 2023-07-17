@@ -126,3 +126,63 @@ body {
   border: 1px solid black;
   padding: 10px 20px;
 }
+
+.sbb {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sbbu {
+  display: flex;
+  gap: 40px;
+}
+
+.sbbuc {
+  display: flex;
+  position: relative;
+  color: rgb(187, 185, 185);
+}
+
+.sbbuci {
+  max-width: 230px;
+}
+
+.sbbuc h5 {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.third {
+  background-color: black;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.thirdc {
+  padding: 20px 0px;
+  min-width: 1020px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tcicons {
+  margin-left: 8px;
+}
+
+.tdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
