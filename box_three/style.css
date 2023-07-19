@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  padding: 70px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(36, 100%, 99%);
+}
+
+.container {
+  max-width: 1020px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.haederoptions {
+  display: flex;
+  color: hsl(236, 13%, 42%);
+}
+
+.haederoption {
+  margin-left: 40px;
+}
+
+.herotop {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.herotopleft {
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.herotopleftimage {
+  width: 100%;
+}
+
+.herotopleftbottom {
+  display: flex;
+}
+
+.herotopleftbottom h3 {
+  flex: 1;
+  font-size: 40px;
+  font-weight: bolder;
+  word-spacing: 3px;
+}
+
+.herotopleftbottomtext {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.herotopleftbottomtext p {
+  font-weight: 100;
+  color: hsl(236, 13%, 42%);
+}
+
+.herotopleftbottomtext button {
+  height: 40px;
+  width: 170px;
+  outline: none;
+  border: none;
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+}
+
+.herotopright {
+  flex: 1;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.herotopright h3 {
+  color: hsl(35, 77%, 62%);
+  font-size: 30px;
+}
+
+.herotoprightul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.herotoprighttext {
+  border-bottom: 0.5px solid grey;
+}
+
+.herotoprighttext h5 {
+  font-size: 20px;
+}
+
+.herotoprighttext p {
+  margin: 10px 0px;
+}

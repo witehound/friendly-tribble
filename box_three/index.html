@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headercontainer">
+        <div class="logocontainer">
+          <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        </div>
+        <ul class="haederoptions">
+          <li class="haederoption">Home</li>
+          <li class="haederoption">New</li>
+          <li class="haederoption">Popular</li>
+          <li class="haederoption">Trending</li>
+          <li class="haederoption">Categories</li>
+        </ul>
+      </div>
+      <div class="hero">
+        <div class="herotop">
+          <div class="herotopleft">
+            <img
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="hero top left image"
+              class="herotopleftimage"
+            />
+            <div class="herotopleftbottom">
+              <h3>
+                The Bright <br />
+                Future of<br />
+                Web 3.0?
+              </h3>
+              <div class="herotopleftbottomtext">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button>Read more</button>
+              </div>
+            </div>
+          </div>
+          <div class="herotopright">
+            <h3>New</h3>
+            <ul class="herotoprightul">
+              <li class="herotoprighttext">
+                <h5>Hydrogen VS Electric Cars</h5>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </li>
+              <li class="herotoprighttext">
+                <h5>The Downsides of AI Artistry</h5>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </li>
+              <li class="herotoprighttext">
+                <h5>Is VC Funding Drying Up?</h5>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="herobottom">bottom</div>
+      </div>
+    </div>
+  </body>
 </html>
