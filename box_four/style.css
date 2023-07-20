@@ -6,6 +6,11 @@
 
 body {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bg {
@@ -16,4 +21,46 @@ body {
   width: 100vw;
   height: 45vh;
   border-bottom-left-radius: 6rem;
+  z-index: -100;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.bottom {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.bone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
