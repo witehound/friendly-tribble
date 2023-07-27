@@ -1,24 +1,24 @@
 const spans = document.querySelectorAll("span");
-let active = spans[0];
+let active = null;
 
 const selctedColor = "hsl(216, 12%, 54%)";
 const neutralColor = "hsl(210, 1%, 26%)";
-
-active.style.backgroundColor = "hsl(216, 12%, 54%)";
 
 const updateSpanColor = (span, color) => {
   span.style.backgroundColor = color;
 };
 
-updateSpanColor(active, selctedColor);
-
 const selectActive = () => {
-  spans.forEach((span) => {
+  spans.forEach((span, index) => {
     span.addEventListener("click", () => {
-      updateSpanColor(active, neutralColor);
-
-      active = span;
-      updateSpanColor(active, selctedColor);
+      if (active != index) {
+        if (active != null) updateSpanColor(spans[active], neutralColor);
+        updateSpanColor(span, selctedColor);
+        active = index;
+      } else {
+        updateSpanColor(span, neutralColor);
+        active = null;
+      }
     });
   });
 };
