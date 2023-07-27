@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+  font-family: Overpass;
+}
+
+.boxctn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  gap: 30px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boxstar {
+  width: 100%;
+}
+
+.boxh1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.boxp {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+}
+
+.boxnumbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.boxnumbers span,
+.boxstar-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 1%, 26%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.boxnumbers span:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border-style: none;
+  width: 70%;
+  height: 40px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+}
